@@ -3,11 +3,11 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'msi'
-  url           = 'https://github.com/hoppscotch/releases/releases/download/v23.8.4-1/Hoppscotch_win_x64.msi'
+  url           = 'https://github.com/hoppscotch/releases/releases/download/v25.2.2-0/Hoppscotch_win_x64.msi'
 
   softwareName  = 'Hoppscotch*'
 
-  checksum      = 'F2D8D6A8195AE1AD517B4DBF397BC1551335EE6F25AEBBE83140BB8815084F75'
+  checksum      = 'E5702FF797E45DB250246491EF3CA556522BC63A5B3BFA629575BDBEC9A9AC8C'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
