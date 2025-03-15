@@ -2,10 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>hoppscotch</id>
-    <version>23.8.4</version>
+    <version>25.2.2</version>
 
     <packageSourceUrl>https://github.com/AlejandroAkbal/Chocolatey-Packages/blob/main/hoppscotch</packageSourceUrl>
     <owners>AlejandroAkbal</owners>
+    <contibuters>ymer94</contibuters>
 
     <title>Hoppscotch</title>
     <authors>Liyas Thomas</authors>
