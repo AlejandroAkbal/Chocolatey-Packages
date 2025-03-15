@@ -3,34 +3,28 @@
   <metadata>
     <id>hoppscotch</id>
     <version>25.2.2</version>
-
     <packageSourceUrl>https://github.com/AlejandroAkbal/Chocolatey-Packages/blob/main/hoppscotch</packageSourceUrl>
-    <owners>AlejandroAkbal</owners>
-    <contibuters>ymer94</contibuters>
+	<owners>AlejandroAkbal, ymer94</owners>
 
+    
     <title>Hoppscotch</title>
     <authors>Liyas Thomas</authors>
-
     <projectUrl>https://github.com/hoppscotch/releases</projectUrl>
-
     <iconUrl>https://avatars.githubusercontent.com/u/56705483</iconUrl>
-
     <licenseUrl>https://github.com/hoppscotch/hoppscotch/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-
     <projectSourceUrl>https://github.com/hoppscotch/hoppscotch</projectSourceUrl>
     <docsUrl>https://docs.hoppscotch.io/documentation/clients/desktop</docsUrl>
     <bugTrackerUrl>https://github.com/hoppscotch/releases/issues</bugTrackerUrl>
-
     <tags>hoppscotch postman development api rest rest-client http-testing restful http https client</tags>
     <summary>Hoppscotch is a lightweight API development suite.</summary>
     <description>
-     Hoppscotch was built from the ground up with ease of use and accessibility in mind.
+		Hoppscotch was built from the ground up with ease of use and accessibility in mind.
 
-     Hoppscotch provides all the functionality needed for developers with a minimalist and unobtrusive UI.
+		Hoppscotch provides all the functionality needed for developers with a minimalist and unobtrusive UI.
 
-     > Hoppscotch community edition is free-to-use and as an added perk completely open source.
-     </description>
+		> Hoppscotch community edition is free-to-use and as an added perk completely open source.
+	 </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
